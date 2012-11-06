@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>play-gae repo for the Q42 fork</title>
+</head>
+<body>
+	<ul>
+		<li>
+			<a href="play-gae-1.6.1.q42.zip">play-gae-1.6.1.q42.zip</a>
+		</li>
+	</ul>
+<div>
+	In dependencies.yml:
+	<pre>
+require:
+    - play
+    - q42gae -> play-gae 1.6.1.q42
+
+repositories:
+- q42gae:
+    type:        http
+    artifact:    "http://q42.github.com/play-gae/[module]"
+    contains:
+        - q42gae -> *
+	</pre>
+</div>
+</body>
+</html>
