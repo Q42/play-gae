@@ -69,7 +69,7 @@ public class GAECache implements CacheImpl {
         for(Object key : map.entrySet()) {
             result.put(key.toString(), unwrap(map.get(key)));
         }
-        return map;
+        return result;
     }
 
     public long incr(String key, int by) {
