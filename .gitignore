@@ -5,3 +5,4 @@ lib/appengine-testing-1.9.2.jar
 lib/appengine-tools-sdk-1.9.2.jar
 lib/play-gae.jar
 modules/committedlibs
+lib
